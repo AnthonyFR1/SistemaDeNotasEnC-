@@ -53,7 +53,7 @@ int main()
 		system("cls");
 		aviso();
 		menu();
-		cout<<"\nIngrese opción:\n "; 
+		cout<<"\nIngrese opciÃ³n:\n "; 
 		cin>>op;
 		op=validarOpcion(op);
 		
@@ -249,7 +249,6 @@ int main()
 		rpt=decidirRepeticion();
 	} while (rpt=='s');
 	
-	CreateWindow("EL MIAUUUUUU");
 	return 0;
 }
 
